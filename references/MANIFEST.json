@@ -1,0 +1,35 @@
+{
+  "rulepack_version": "df8832223387",
+  "base_date": "2026-10-15",
+  "files": [
+    {
+      "path": "references/wordlists/absolute-terms.json",
+      "sha256": "3b310b649de50d3e98ca1e2846a5bd1b6f359fcfc9d9e808d8c086657a1f4ebb",
+      "bytes": 37431
+    },
+    {
+      "path": "references/wordlists/health-food.json",
+      "sha256": "29752936dd5b34da659f2b75f3cd5832f6bfa60749ac8402517e85b0d6820bfa",
+      "bytes": 16811
+    },
+    {
+      "path": "references/wordlists/industry.json",
+      "sha256": "4164674907dbf9b4265a1e28f015669bd60b92bd4728c6b9e49eaaec5523e21d",
+      "bytes": 34991
+    },
+    {
+      "path": "references/wordlists/medical.json",
+      "sha256": "8e5c475b321508e7f02991983c6d70513cb283b092bda98c9b661451830ccf27",
+      "bytes": 10919
+    }
+  ],
+  "counts": {
+    "words_verified": 133,
+    "words_by_category": {
+      "绝对化用语": 50,
+      "保健食品违禁": 22,
+      "行业违禁": 47,
+      "医疗违禁": 14
+    }
+  }
+}

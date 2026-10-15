@@ -14,12 +14,12 @@
 | 2 | 《互联网广告管理办法》 | 全文 32 条 | samr.gov.cn 直连：https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_d93a579afd45413e8576e4623fab348f.html | ✅ 已核对 | 静态 HTML，可程序化抽条 |
 | 3 | 《医疗广告管理办法》 | §6 / §7 禁止性规定 | samr.gov.cn 直连：https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/ggjgs/art/2023/art_6584dc1c94c2408db7c73f0b5e3d225a.html | ✅ 已核对 | 静态 HTML，可程序化抽条 |
 | 4 | 广告绝对化用语执法指南（一）（二） | 执法指南 | samr.gov.cn | ✅ 存在（已实测） | ⚠️ **不涉及绝对化用语认定口径——勿误标为认定依据**。仅登记其存在，不作 §9 的认定来源 |
-| 5 | 公开整理的极限词表（绝对化用语） | 约 300 词 | `es3344520/advertising-limit-words` 的 `Dete.txt` | ✅ 可复用，**非官方整理** | 可作词表起点；**须标注"非官方整理，法条原文为准"**，逐条挂法条锚点后方可入 `references/wordlists/` |
-| 6 | 公开整理的分平台违禁词表 | 分类更结构化 | `dx2020z/ad-redline-guardian` 的 `references/banned-words.md` | ✅ 可复用，**非官方整理** | 同上，作分类词表的整理参照 |
+| 5 | 公开整理的极限词表（绝对化用语） | 191 词（去重后实测，快照值） | `es3344520/advertising-limit-words` 的 `Dete.txt`（M1 实测经 api.github.com base64 通道获取；raw 直连被重置） | ✅ 已复用，**非官方整理** | 仓库无 License 文件（api 实测 license=null）——已按"公开整理、法条原文为准"标注使用；逐条挂法条锚点后入 `references/wordlists/`（采 67 词） |
+| 6 | 公开整理的分平台违禁词表 | 分类更结构化 | `dx2020z/ad-redline-guardian` 的 `references/banned-words.md`（MIT License，api 实测） | ✅ 已复用，**非官方整理** | 同上，作分类词表的整理参照（增补 66 词；分类结构参照） |
 | 7 | 市场监管总局违法广告典型案例列表页 | 案例库 | samr.gov.cn 案例列表页 | ⬜ **不可获取** | **JS 渲染空壳**，程序化直连拿不到 → **不得作数据底座**，基准改由程序化构造合成文案替代 |
 | 8 | 抖音/小红书官方社区规范页 | 平台规则 | 抖音/小红书社区规范页 | ⬜ **不可获取** | **纯 JS 渲染**，机器不可自动抓 → 改为**人工摘录后冻结为 `references/platforms/`**，逐条注摘录日期 + 出处；不得声称"官方实时口径" |
 
-**平台规则（淘宝/抖音/小红书/视频号）人工摘录清单**：⬜ 待 M1 逐条摘录冻结。每份摘录件须登记：平台名 + 摘录日期 + 原页 URL + 摘录人 + 摘录范围（哪类违禁词）。
+**平台规则（淘宝/抖音/小红书/视频号）人工摘录清单**：◐ M1 实测（2026-10-15）——视频号 ✅ 已冻结（`references/platforms/shipinhao.md`，官方静态模板页可达）；淘宝/抖音/小红书 ⬜ 不可获取（逐通道实测记录见 `references/platforms/README.md`）。每份摘录件登记：平台名 + 摘录日期 + 原页 URL + 摘录人 + 摘录范围（哪类违禁词）。
 
 ---
 

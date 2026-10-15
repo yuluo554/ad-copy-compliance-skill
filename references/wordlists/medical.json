@@ -1,0 +1,253 @@
+{
+  "category": "医疗违禁",
+  "entries": [
+    {
+      "word": "三天即愈",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "限时治愈保证"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "保证治愈",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "medical-ad-measures",
+        "clause": "第七条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "包治百病",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "功效保证断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "彻底康复",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "治愈保证变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "抗菌",
+      "category": "医疗违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "医疗用语变体；有资质时属语境豁免候选"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "杀菌",
+      "category": "医疗违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "医疗用语变体；消毒产品有资质时属语境豁免候选"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "根治",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "“治愈”的同义强化变体，属第十七条医疗用语语义类属"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "治愈",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "medical-ad-measures",
+        "clause": "第七条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "治疗",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "消炎",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "医疗用语，易与药品混淆"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "疗效",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "medical-ad-measures",
+        "clause": "第七条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "疗效显著",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "medical-ad-measures",
+        "clause": "第七条",
+        "basis": "variant",
+        "note": "“宣传治愈率、有效率等诊疗效果”类断言变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "痊愈",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "“治愈”同义变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    },
+    {
+      "word": "药到病除",
+      "category": "医疗违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十七条",
+        "basis": "variant",
+        "note": "功效保证断言，属第十七条医疗用语"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除医疗功效表述；普通商品改为客观成分/质地描述，医疗商品须持证并按审查证明发布"
+    }
+  ]
+}

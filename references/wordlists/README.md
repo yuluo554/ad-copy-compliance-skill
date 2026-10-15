@@ -1,15 +1,18 @@
 # references/wordlists/ — 第三层：分类词表
 
-**状态**：⬜ M1 落盘（当前为占位）。
+**状态**：✅ M1 已落盘（2026-10-15 冻结；版本派生与 sha256/计数见 `references/MANIFEST.json`）。
 
-M1 将产出（文件名 → 类别，逐条 `category` 必须与文件声明一致）：
+产出（文件名 → 类别，逐条 `category` 与文件声明一致，`tools/validate_rulepack.py` 强制）：
 
-| 文件 | 类别 |
-|---|---|
-| `absolute-terms.json` | 绝对化用语 |
-| `medical.json` | 医疗违禁 |
-| `health-food.json` | 保健食品违禁 |
-| `industry.json` | 行业违禁 |
+| 文件 | 类别 | verified 词条数（实测快照） |
+|---|---|---|
+| `absolute-terms.json` | 绝对化用语 | 50 |
+| `medical.json` | 医疗违禁 | 14 |
+| `health-food.json` | 保健食品违禁 | 22 |
+| `industry.json` | 行业违禁 | 47 |
+| 合计 | — | **133**（以 `MANIFEST.json` `counts.words_verified` 为准） |
+
+来源与生成：由冻结生成器 `tools/gen_wordlists.py` 生成（禁手改；变更 = 改生成器重生成 + `--check` 位级一致）；来源为公开整理词表（Dete.txt 采 67 词 + banned-words.md 分类参照增补 66 词），采/拒全记录见 `data/wordlist-candidates.md`。
 
 条目字段（详见 `plan/04-模块详设.md` §2.3）：
 

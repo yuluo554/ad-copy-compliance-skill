@@ -3,6 +3,7 @@
 
 # 法条冻结文本是"被台账登记过 sha256 的字节冻结件"——禁止 EOL 归一化，否则克隆后 sha256 失配
 references/statutes/*.txt -text
+references/statutes/raw/* -text
 
 # 二进制
 *.png binary

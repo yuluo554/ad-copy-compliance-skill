@@ -1,0 +1,902 @@
+{
+  "category": "绝对化用语",
+  "entries": [
+    {
+      "word": "100%有效",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "全称效果断言，无法逐例证实"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "NO.1",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "“第一”的西文变体，排他性序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "TOP.1",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "“第一”的西文变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "万能",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "全效断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "世界级",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "与“国家级”同构的级域断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "世界领先",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "领先断言，须附出处"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "中国第一",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "仅此一家",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "全国第一",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "全球级",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "与“国家级”同构的级域断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "全球首发",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "首发断言，须附出处"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "全网最优",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "范围+绝对化断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "全网最低",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "范围+绝对化价格断言，无法逐域核实"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "全网第一",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "全网首发",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "首发断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "全能",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "全效断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "史无前例",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "唯一",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性断言，有真实排他性证明时属语境豁免候选"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "国家级",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除该表述，或改为可核实的客观事实描述"
+    },
+    {
+      "word": "宇宙级",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "与“国家级”同构的级域断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最优",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "“最+褒义形容词”绝对化断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最优秀",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "“最+褒义形容词”绝对化断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最低价",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "价格类绝对化断言，无法逐域核实"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最佳",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除该表述，或改为可核实的客观事实描述"
+    },
+    {
+      "word": "最便宜",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "价格类绝对化断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最先进",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "“最+程度断言”绝对化断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最好",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "“最+褒义形容词”绝对化断言，属第九条（三）“等用语”语义类属"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最强",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "“最+程度断言”绝对化断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最高端",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "“最+程度断言”绝对化断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "最高级",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除该表述，或改为可核实的客观事实描述"
+    },
+    {
+      "word": "极品",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "品级绝对化断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "极致",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "程度断言，营销语境常用，风险略低于明文列举"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "独一无二",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "空前绝后",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "第一",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性序位断言，无据即绝对化"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "第一品牌",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "终极",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "程度断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "绝对",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "绝对化承诺词面（如“绝对有效”）"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "绝无仅有",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "行业第一",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "行业领先",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "领先断言，须附出处"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "销量冠军",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "序位断言，须附统计出处"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "销量第一",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性序位断言，须附统计出处"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "顶尖",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "程度断言，属绝对化变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "顶级",
+      "category": "绝对化用语",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "级域程度断言，属绝对化变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "领先上市",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "首个",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "序位断言，须附首例出处"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "首家",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "首款",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "序位断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    },
+    {
+      "word": "首选",
+      "category": "绝对化用语",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第九条",
+        "basis": "variant",
+        "note": "排他性推荐断言，语境依赖"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除绝对化表述，改为可核实的客观描述（如具体数据并附出处）"
+    }
+  ]
+}

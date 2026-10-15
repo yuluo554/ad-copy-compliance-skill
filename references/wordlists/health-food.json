@@ -1,0 +1,399 @@
+{
+  "category": "保健食品违禁",
+  "entries": [
+    {
+      "word": "丰胸",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "高风险功效词"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "减肥",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "普通食品宣称减肥属功效断言；语境依赖（保健食品需注册证）"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "增高",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "高风险功效词"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "壮阳",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "高风险功效词"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "抗癌",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "疾病预防/治疗功能表述，属第十八条（二）语义类属"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "排毒",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "夸大语境下的功效断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "无任何副作用",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "安全性断言"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除安全性断言，改为可核实成分/检测描述"
+    },
+    {
+      "word": "无副作用",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "安全性断言，属第十八条（一）“表示功效、安全性的断言或者保证”"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除安全性断言，改为可核实成分/检测描述"
+    },
+    {
+      "word": "治疗功能",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "溶脂",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "功效断言变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "燃脂",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "功效断言变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "疾病预防",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "literal"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "瘦身",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "功效断言变体"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "祛斑",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "特证化妆品功效词"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "祛痘",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "特证化妆品功效词"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "纯天然",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第二十八条",
+        "basis": "variant",
+        "note": "无法证实的绝对化安全断言，属第二十八条（二）允诺与实际不符"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除安全性断言，改为可核实成分/检测描述"
+    },
+    {
+      "word": "美白",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "特证化妆品功效词，无注册证即违规（语境依赖）"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "防癌",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "疾病预防功能表述"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "降三高",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "疾病治疗功能表述"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "降血压",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "疾病治疗功能表述"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "降血糖",
+      "category": "保健食品违禁",
+      "risk": "high",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第十八条",
+        "basis": "variant",
+        "note": "疾病治疗功能表述"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除功效/疾病预防治疗表述；保健食品须显著标明“本品不能代替药物”"
+    },
+    {
+      "word": "零添加",
+      "category": "保健食品违禁",
+      "risk": "medium",
+      "anchor": {
+        "doc": "advertising-law",
+        "clause": "第二十八条",
+        "basis": "variant",
+        "note": "安全断言变体，需可证实"
+      },
+      "source": {
+        "type": "non_official",
+        "ref": "公开整理词表（来源快照）",
+        "note": "非官方整理（来源：es3344520/advertising-limit-words 的 Dete.txt 与 dx2020z/ad-redline-guardian 的 references/banned-words.md 公开快照，2026-10-15 经 api.github.com 获取），法条原文为准"
+      },
+      "status": "verified",
+      "suggestion": "删除安全性断言，改为可核实成分/检测描述"
+    }
+  ]
+}
