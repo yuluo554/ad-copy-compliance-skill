@@ -17,9 +17,9 @@ description: 广告文案合规自查（《广告法》第九条绝对化用语 
 
 1. **扫描（确定性，零 LLM、零网络）**：
    `python scripts/check.py <文案文件>`（或 stdin）→ 命中集合 JSON（见下方契约）。
-2. **语境判定（可选）**：按 `references/judgment-protocol.md`（M3 交付）对每条命中给
-   `confirmed` / `exempt` / `uncertain` + 理由 + 依据锚点；**只注释、不改位置**；
-   不可用时降级为纯扫描（所有命中标 `uncertain` 并声明）。
+2. **语境判定（可选）**：按 `references/judgment-protocol.md`（M3 交付，行为规范以协议文档为准）对每条命中给
+   `confirmed` / `exempt` / `uncertain` + 理由 + 依据锚点；**只注释、不改位置**（不新增/删除/移动命中）；
+   判定关闭或失败时**降级**：所有命中标 `uncertain`，并在输出 meta 中显式声明"仅扫描结果，未经语境判定"。
 3. **呈现**：逐句标红 + 替换建议（`suggestion`）+ 依据条款 + **免责声明**。
 
 ## 输出契约（与 `scripts/check.py` 逐字段一致）
