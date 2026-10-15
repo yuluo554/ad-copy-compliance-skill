@@ -128,12 +128,37 @@ def _readme_quickstart_commands():
     return cmds
 
 
+def _quickstart_interpreter(py):
+    """选 README 快速开始实测用解释器前缀（列表形态，如 ["py", "-3.8"]）。
+
+    Windows 优先 py 启动器（`py -3.x -X utf8`，本机 D-5 双道）；探测不可用且
+    宿主解释器版本匹配时回退 sys.executable；仍不可得则 skip——
+    "逐条实测"语义不变，执行道因环境而异（CI ubuntu 无 py / CI windows 无 3.8）。
+    """
+    import os
+    import subprocess
+    import sys
+    if os.name == "nt":
+        try:
+            probe = subprocess.run(["py", "-%s" % py, "-c", "import sys"],
+                                   capture_output=True, timeout=60)
+        except OSError:
+            probe = None
+        if probe is not None and probe.returncode == 0:
+            return ["py", "-%s" % py]
+    host = "%d.%d" % sys.version_info[:2]
+    if host == py:
+        return [sys.executable]
+    pytest.skip("本环境无 Python %s 运行道（py 启动器不可用且宿主为 %s）" % (py, host))
+
+
 @pytest.mark.parametrize("py", ["3.8", "3.12"])
 def test_readme_quickstart_commands_run(py, tmp_path):
     """README 快速开始逐条实测（plan/04 §7 M5：'每条命令实测过再写可跑'）。
 
     文档命令形态：`python scripts/check.py ...` / `python tools/bench.py ...`。
-    本机按 py 启动器换道执行（`py -3.x -X utf8`），语义等同、逐条断言退出码。
+    按 `_quickstart_interpreter` 选道执行（py 启动器优先，宿主版本回退），
+    语义等同、逐条断言退出码。
     """
     import os
     import subprocess
@@ -156,7 +181,7 @@ def test_readme_quickstart_commands_run(py, tmp_path):
             continue
         assert cmd.startswith("python "), "README 快速开始命令应以 python 开头：%r" % cmd
         rest = cmd[len("python "):].split()
-        argv = ["py", "-%s" % py, "-X", "utf8"] + rest
+        argv = _quickstart_interpreter(py) + ["-X", "utf8"] + rest
         if rest[-1] == "-":
             argv = argv[:-1]
             stdin_data = stdin_data or "示例文案。".encode("utf-8")
