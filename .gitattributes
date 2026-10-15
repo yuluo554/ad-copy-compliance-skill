@@ -1,0 +1,15 @@
+# 源码归一：所有文本按 LF 检出/提交（跨平台字节复现的前提）
+* text=auto eol=lf
+
+# 法条冻结文本是"被台账登记过 sha256 的字节冻结件"——禁止 EOL 归一化，否则克隆后 sha256 失配
+references/statutes/*.txt -text
+
+# 二进制
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.xlsx binary
+*.exe binary
+*.zip binary
+*.ico binary

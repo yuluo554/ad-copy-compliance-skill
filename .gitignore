@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# 运行产物
+output/
+reports/
+release/
+*.log
+.tmp/
+*.bak
+selftest.json
+
+# 隔离的包管理器 store（本地验证用）
+.clean-store/
+.clean-venv/
+
+# 环境与密钥
+.env
+*.key
+*_private/
+
+# 真实品牌/商品素材的本地私有参照件（不入仓；见 data/README.md §3 合成数据纪律）
+data/**/_private/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
