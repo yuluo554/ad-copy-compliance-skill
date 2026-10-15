@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""骨架版 check.py 的行为测试（M2 将扩展为全量扫描器测试）。
+"""check.py 的行为测试（M0 骨架基线；M2 全量扩展见 test_scan_dfa.py / test_real_wordlist.py）。
 
 约定：只依赖 pytest + 标准库；子进程显式 UTF-8 读写；测试夹具一律使用合成占位词。
 """

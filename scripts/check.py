@@ -16,8 +16,9 @@
 
 退出码：0 = 扫描完成且零命中；1 = 扫描完成且有条目命中；2 = 用法或输入错误。
 
-当前为 M0 骨架版：端到端通路就位；规则内容（法条冻结/词表核对/平台摘录）按 M1 数据先行
-纪律落库；匹配的 DFA 化与全量测试见 M2。契约见 SKILL.md 与 plan/04-模块详设.md。
+匹配引擎为前缀树（M2 DFA 化）：语义严格保持左→右、长词优先、非重叠、
+同词多类别各记一条；新旧实现等价对拍见 tests/test_scan_dfa.py。
+契约见 SKILL.md 与 plan/04-模块详设.md。
 """
 
 import argparse
@@ -210,46 +211,72 @@ def _make_hit(entry, line, col0, line_no, context_window):
     }
 
 
+def build_dfa(entries):
+    """把生效词条编译成前缀树（嵌套 dict），节点 = (children, terminal_states)。
+
+    terminal_states 内为 (word, category, risk, suggestion) 元组：同词多类别各占
+    一项，遍历顺序由编译方保证（构造期已按词长降序、(category, word) 升序排定，
+    见 scan_text 契约）；树内不排序，命中序由编译期序决定。
+    """
+    root = ({}, [])
+    for e in entries:
+        node = root
+        for ch in e["word"]:
+            children = node[0]
+            nxt = children.get(ch)
+            if nxt is None:
+                nxt = ({}, [])
+                children[ch] = nxt
+            node = nxt
+        node[1].append((e["word"], e["category"], e["risk"], e["suggestion"]))
+    return root
+
+
 def scan_text(text, entries, context_window=DEFAULT_CONTEXT):
     """确定性扫描：左到右、长词优先、非重叠；返回命中列表（排序=扫描序）。
 
-    - 每个位置在该处匹配的条目中取词面最长者；命中段消费后从段尾继续（非重叠）；
-    - 同一命中段、同词、多类别 → 各记一条；
-    - 排序稳定：先按 (line, col)，同位内按 (category, word) 码点序。
+    匹配用前缀树（build_dfa 编译）：每个位置沿树下行，遇到终止节点即得该处
+    可匹配的全部条目；取词面最长者（同长取编译序首个），命中段消费后从段尾
+    继续（非重叠）。同一命中段、同词、多类别 → 各记一条（终止节点内按去重键
+    消费，不重复输出）。
+    排序稳定：先按 (line, col)，同位内按 (category, word) 码点序。
     """
-    by_first = {}
-    for e in entries:
-        by_first.setdefault(e["word"][0], []).append(e)
-    for ch in by_first:
-        by_first[ch].sort(key=lambda e: (-len(e["word"]), e["category"], e["word"]))
-
+    trie = build_dfa(entries)
+    root_children = trie[0]
     hits = []
     for line_no, line in enumerate(text.split("\n"), start=1):
         pos = 0
         n = len(line)
         while pos < n:
-            bucket = by_first.get(line[pos])
-            if not bucket:
-                pos += 1
-                continue
-            matched_word = None
-            for e in bucket:
-                if line.startswith(e["word"], pos):
-                    matched_word = e["word"]
+            node = None
+            children = root_children
+            # 沿树下行到最深可达节点，沿途最深的"有终止条目"的节点即最长匹配
+            # （更深的节点若无终止条目，则该路径上不存在更长可命中词——词面必须终止于某节点）
+            children = root_children
+            depth = 0
+            last = None
+            while True:
+                nxt = children.get(line[pos + depth]) if pos + depth < n else None
+                if nxt is None:
                     break
-            if matched_word is None:
+                depth += 1
+                if nxt[1]:
+                    last = nxt
+                children = nxt[0]
+            # last = 沿途最深的"有终止条目"的节点：词面最长的匹配（超过它的
+            # 更深节点若无终止条目，则不存在更长可命中词——词面必须终止于某节点）
+            if last is None:
                 pos += 1
                 continue
             seen = set()
-            for e in bucket:
-                if e["word"] != matched_word or not line.startswith(e["word"], pos):
-                    continue
-                key = (e["word"], e["category"])
+            for word, category, risk, suggestion in last[1]:
+                key = (word, category)
                 if key in seen:
                     continue
                 seen.add(key)
-                hits.append(_make_hit(e, line, pos, line_no, context_window))
-            pos += len(matched_word)
+                entry = {"word": word, "category": category, "risk": risk, "suggestion": suggestion}
+                hits.append(_make_hit(entry, line, pos, line_no, context_window))
+            pos += len(last[1][0][0])
     hits.sort(key=lambda h: (h["line"], h["col"], h["category"], h["word"]))
     return hits
 
