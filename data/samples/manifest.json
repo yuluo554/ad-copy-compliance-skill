@@ -1,0 +1,716 @@
+{
+  "schema": "ad-copy-compliance/samples-manifest@1",
+  "base_date": "2026-10-15",
+  "sampling": {
+    "declaration": "抽样覆盖非穷举：逐词全量（每生效词条 1 条单词命中样例）＋手工语义样例；词面组合/句式不做穷举",
+    "context_window": 10,
+    "brands_whitelist": [
+      "仙鹤草堂",
+      "云杉电器",
+      "青芜食品",
+      "北岸学堂"
+    ],
+    "total_words_verified": 133,
+    "total_cases": 148,
+    "sampled_words": 133,
+    "counts_by_kind": {
+      "exempt": 4,
+      "multi-word": 2,
+      "negative": 3,
+      "position-edge": 6,
+      "positive-per-word": 133
+    },
+    "words_by_category": {
+      "保健食品违禁": 22,
+      "医疗违禁": 14,
+      "绝对化用语": 50,
+      "行业违禁": 47
+    },
+    "sample_list": [
+      {
+        "id": "pos-0001",
+        "word": "100%有效",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0002",
+        "word": "NO.1",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0003",
+        "word": "TOP.1",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0004",
+        "word": "万能",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0005",
+        "word": "世界级",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0006",
+        "word": "世界领先",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0007",
+        "word": "中国第一",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0008",
+        "word": "仅此一家",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0009",
+        "word": "全国第一",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0010",
+        "word": "全球级",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0011",
+        "word": "全球首发",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0012",
+        "word": "全网最优",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0013",
+        "word": "全网最低",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0014",
+        "word": "全网第一",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0015",
+        "word": "全网首发",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0016",
+        "word": "全能",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0017",
+        "word": "史无前例",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0018",
+        "word": "唯一",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0019",
+        "word": "国家级",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0020",
+        "word": "宇宙级",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0021",
+        "word": "最优",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0022",
+        "word": "最优秀",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0023",
+        "word": "最低价",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0024",
+        "word": "最佳",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0025",
+        "word": "最便宜",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0026",
+        "word": "最先进",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0027",
+        "word": "最好",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0028",
+        "word": "最强",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0029",
+        "word": "最高端",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0030",
+        "word": "最高级",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0031",
+        "word": "极品",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0032",
+        "word": "极致",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0033",
+        "word": "独一无二",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0034",
+        "word": "空前绝后",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0035",
+        "word": "第一",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0036",
+        "word": "第一品牌",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0037",
+        "word": "终极",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0038",
+        "word": "绝对",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0039",
+        "word": "绝无仅有",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0040",
+        "word": "行业第一",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0041",
+        "word": "行业领先",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0042",
+        "word": "销量冠军",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0043",
+        "word": "销量第一",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0044",
+        "word": "顶尖",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0045",
+        "word": "顶级",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0046",
+        "word": "领先上市",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0047",
+        "word": "首个",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0048",
+        "word": "首家",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0049",
+        "word": "首款",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0050",
+        "word": "首选",
+        "category": "绝对化用语"
+      },
+      {
+        "id": "pos-0051",
+        "word": "丰胸",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0052",
+        "word": "减肥",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0053",
+        "word": "增高",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0054",
+        "word": "壮阳",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0055",
+        "word": "抗癌",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0056",
+        "word": "排毒",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0057",
+        "word": "无任何副作用",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0058",
+        "word": "无副作用",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0059",
+        "word": "治疗功能",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0060",
+        "word": "溶脂",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0061",
+        "word": "燃脂",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0062",
+        "word": "疾病预防",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0063",
+        "word": "瘦身",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0064",
+        "word": "祛斑",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0065",
+        "word": "祛痘",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0066",
+        "word": "纯天然",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0067",
+        "word": "美白",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0068",
+        "word": "防癌",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0069",
+        "word": "降三高",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0070",
+        "word": "降血压",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0071",
+        "word": "降血糖",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0072",
+        "word": "零添加",
+        "category": "保健食品违禁"
+      },
+      {
+        "id": "pos-0073",
+        "word": "CCTV推荐",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0074",
+        "word": "一次通关",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0075",
+        "word": "一次通过",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0076",
+        "word": "专供",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0077",
+        "word": "专家推荐",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0078",
+        "word": "仅此一天",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0079",
+        "word": "保收益",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0080",
+        "word": "保本",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0081",
+        "word": "保过",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0082",
+        "word": "假一罚十",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0083",
+        "word": "假一赔万",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0084",
+        "word": "免抽检",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0085",
+        "word": "全民免单",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0086",
+        "word": "包回本",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0087",
+        "word": "包过",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0088",
+        "word": "吊打同行",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0089",
+        "word": "国家免检",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0090",
+        "word": "国家机关专供",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0091",
+        "word": "国家机关推荐",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0092",
+        "word": "央视上榜",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0093",
+        "word": "开光",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0094",
+        "word": "开运",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0095",
+        "word": "必涨",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0096",
+        "word": "恭喜获奖",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0097",
+        "word": "招财进宝",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0098",
+        "word": "政府指定",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0099",
+        "word": "无风险",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0100",
+        "word": "日入千元",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0101",
+        "word": "最后一天",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0102",
+        "word": "月入过万",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0103",
+        "word": "灵验",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0104",
+        "word": "点击领奖",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0105",
+        "word": "特供",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0106",
+        "word": "秒杀全行业",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0107",
+        "word": "稳赚",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0108",
+        "word": "稳赢",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0109",
+        "word": "质检推荐",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0110",
+        "word": "质量免检",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0111",
+        "word": "躺赚",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0112",
+        "word": "转运",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0113",
+        "word": "辟邪",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0114",
+        "word": "错过再等一年",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0115",
+        "word": "镇宅",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0116",
+        "word": "院士推荐",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0117",
+        "word": "零风险",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0118",
+        "word": "风水改运",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0119",
+        "word": "驰名商标",
+        "category": "行业违禁"
+      },
+      {
+        "id": "pos-0120",
+        "word": "三天即愈",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0121",
+        "word": "保证治愈",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0122",
+        "word": "包治百病",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0123",
+        "word": "彻底康复",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0124",
+        "word": "抗菌",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0125",
+        "word": "杀菌",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0126",
+        "word": "根治",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0127",
+        "word": "治愈",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0128",
+        "word": "治疗",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0129",
+        "word": "消炎",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0130",
+        "word": "疗效",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0131",
+        "word": "疗效显著",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0132",
+        "word": "痊愈",
+        "category": "医疗违禁"
+      },
+      {
+        "id": "pos-0133",
+        "word": "药到病除",
+        "category": "医疗违禁"
+      }
+    ],
+    "coverage_claims": [
+      "① 逐词全量：每生效词条 ≥1 条单词命中样例（kind=positive-per-word）",
+      "② 每类别 ≥1 多词（multi-word 覆盖 绝对化用语/行业违禁/保健食品违禁）",
+      "③ 位置边界：行首/行尾/跨行/空行/CRLF/CR/BOM（kind=position-edge）",
+      "④ 同词异类：本规则包无跨文件同词多类别词面——该形态如实登记为 0，不虚构样例",
+      "⑤ 判定类样例 6 条（expect_verdict 非 null；离线基准只断言扫描层，不进 bench 断言）"
+    ],
+    "verdict_case_ids": [
+      "multi-word-0002",
+      "position-edge-0006",
+      "exempt-0009",
+      "exempt-0010",
+      "exempt-0011",
+      "exempt-0012"
+    ]
+  },
+  "acceptance": {
+    "exact_match_required": 1.0,
+    "note": "命中集合（词+类别+行+列）双向精确匹配；任一样例不匹配即 bench exit 1"
+  }
+}

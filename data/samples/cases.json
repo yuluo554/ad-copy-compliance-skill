@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "pos-0001",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它100%有效，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "100%有效",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0002",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，NO.1就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "NO.1",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0003",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——TOP.1，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "TOP.1",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0004",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款万能，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "万能",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0005",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它世界级，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "世界级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0006",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，世界领先就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "世界领先",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0007",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——中国第一，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "中国第一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0008",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款仅此一家，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "仅此一家",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0009",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它全国第一，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "全国第一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0010",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，全球级就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "全球级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0011",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——全球首发，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "全球首发",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0012",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款全网最优，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "全网最优",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0013",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它全网最低，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "全网最低",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0014",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，全网第一就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "全网第一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0015",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——全网首发，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "全网首发",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0016",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款全能，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "全能",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0017",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它史无前例，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "史无前例",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0018",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，唯一就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "唯一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0019",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——国家级，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "国家级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0020",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款宇宙级，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "宇宙级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0021",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它最优，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "最优",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0022",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，最优秀就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "最优秀",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0023",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——最低价，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "最低价",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0024",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款最佳，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "最佳",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0025",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它最便宜，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "最便宜",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0026",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，最先进就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "最先进",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0027",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——最好，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "最好",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0028",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款最强，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "最强",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0029",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它最高端，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "最高端",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0030",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，最高级就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "最高级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0031",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——极品，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "极品",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0032",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款极致，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "极致",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0033",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它独一无二，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "独一无二",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0034",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，空前绝后就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "空前绝后",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0035",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——第一，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "第一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0036",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款第一品牌，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "第一品牌",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0037",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它终极，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "终极",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0038",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，绝对就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "绝对",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0039",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——绝无仅有，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "绝无仅有",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0040",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款行业第一，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "行业第一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0041",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它行业领先，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "行业领先",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0042",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，销量冠军就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "销量冠军",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0043",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——销量第一，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "销量第一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0044",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款顶尖，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "顶尖",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0045",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它顶级，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "顶级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0046",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，领先上市就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "领先上市",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0047",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——首个，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "首个",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0048",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款首家，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "首家",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0049",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它首款，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "首款",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0050",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，首选就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "首选",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0051",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——丰胸，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "丰胸",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0052",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款减肥，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "减肥",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0053",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它增高，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "增高",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0054",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，壮阳就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "壮阳",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0055",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——抗癌，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "抗癌",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0056",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款排毒，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "排毒",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0057",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它无任何副作用，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "无任何副作用",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0058",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，无副作用就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "无副作用",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0059",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——治疗功能，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "治疗功能",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0060",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款溶脂，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "溶脂",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0061",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它燃脂，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "燃脂",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0062",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，疾病预防就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "疾病预防",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0063",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——瘦身，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "瘦身",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0064",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款祛斑，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "祛斑",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0065",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它祛痘，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "祛痘",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0066",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，纯天然就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "纯天然",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0067",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——美白，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "美白",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0068",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款防癌，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "防癌",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0069",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它降三高，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "降三高",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0070",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，降血压就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "降血压",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0071",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——降血糖，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "降血糖",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0072",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款零添加，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "零添加",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0073",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它CCTV推荐，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "CCTV推荐",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0074",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，一次通关就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "一次通关",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0075",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——一次通过，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "一次通过",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0076",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款专供，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "专供",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0077",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它专家推荐，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "专家推荐",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0078",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，仅此一天就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "仅此一天",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0079",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——保收益，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "保收益",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0080",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款保本，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "保本",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0081",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它保过，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "保过",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0082",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，假一罚十就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "假一罚十",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0083",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——假一赔万，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "假一赔万",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0084",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款免抽检，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "免抽检",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0085",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它全民免单，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "全民免单",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0086",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，包回本就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "包回本",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0087",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——包过，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "包过",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0088",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款吊打同行，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "吊打同行",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0089",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它国家免检，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "国家免检",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0090",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，国家机关专供就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "国家机关专供",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0091",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——国家机关推荐，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "国家机关推荐",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0092",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款央视上榜，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "央视上榜",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0093",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它开光，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "开光",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0094",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，开运就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "开运",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0095",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——必涨，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "必涨",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0096",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款恭喜获奖，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "恭喜获奖",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0097",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它招财进宝，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "招财进宝",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0098",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，政府指定就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "政府指定",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0099",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——无风险，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "无风险",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0100",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款日入千元，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "日入千元",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0101",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它最后一天，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "最后一天",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0102",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，月入过万就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "月入过万",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0103",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——灵验，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "灵验",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0104",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款点击领奖，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "点击领奖",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0105",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它特供，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "特供",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0106",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，秒杀全行业就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "秒杀全行业",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0107",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——稳赚，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "稳赚",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0108",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款稳赢，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "稳赢",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0109",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它质检推荐，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "质检推荐",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0110",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，质量免检就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "质量免检",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0111",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——躺赚，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "躺赚",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0112",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款转运，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "转运",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0113",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它辟邪，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "辟邪",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0114",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，错过再等一年就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "错过再等一年",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0115",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——镇宅，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "镇宅",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0116",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款院士推荐，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "院士推荐",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0117",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它零风险，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "零风险",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0118",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，风水改运就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "风水改运",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0119",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——驰名商标，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "驰名商标",
+        "category": "行业违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0120",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款三天即愈，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "三天即愈",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0121",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它保证治愈，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "保证治愈",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0122",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，包治百病就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "包治百病",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0123",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——彻底康复，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "彻底康复",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0124",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款抗菌，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "抗菌",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0125",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它杀菌，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "杀菌",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0126",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，根治就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "根治",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0127",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——治愈，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "治愈",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0128",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款治疗，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "治疗",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0129",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它消炎，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "消炎",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0130",
+    "kind": "positive-per-word",
+    "text": "选云杉电器的理由有很多，疗效就是其中一条。",
+    "expect_hits": [
+      {
+        "word": "疗效",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0131",
+    "kind": "positive-per-word",
+    "text": "朋友都在问青芜食品怎么样——疗效显著，用了就知道。",
+    "expect_hits": [
+      {
+        "word": "疗效显著",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0132",
+    "kind": "positive-per-word",
+    "text": "北岸学堂店长说：这款痊愈，欢迎对比。",
+    "expect_hits": [
+      {
+        "word": "痊愈",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 11
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "pos-0133",
+    "kind": "positive-per-word",
+    "text": "仙鹤草堂新品上市，都说它药到病除，不信你来试试。",
+    "expect_hits": [
+      {
+        "word": "药到病除",
+        "category": "医疗违禁",
+        "line": 1,
+        "col": 13
+      }
+    ],
+    "expect_verdict": null,
+    "note": "逐词全量采样（每生效词条 1 条）"
+  },
+  {
+    "id": "multi-word-0001",
+    "kind": "multi-word",
+    "text": "仙鹤草堂纯天然蜂蜜上市：美白、祛斑，一瓶多效。",
+    "expect_hits": [
+      {
+        "word": "纯天然",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 5
+      },
+      {
+        "word": "美白",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 13
+      },
+      {
+        "word": "祛斑",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 16
+      }
+    ],
+    "expect_verdict": null,
+    "note": "一段文案同段植入三个保健食品类词面（功效+妆效类）"
+  },
+  {
+    "id": "multi-word-0002",
+    "kind": "multi-word",
+    "text": "仙鹤草堂行业第一，销量冠军，全网最优。",
+    "expect_hits": [
+      {
+        "word": "行业第一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 5
+      },
+      {
+        "word": "销量冠军",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 10
+      },
+      {
+        "word": "全网最优",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 15
+      }
+    ],
+    "expect_verdict": "confirmed",
+    "note": "一段连排三个序位/价格类绝对化断言（判定类，无豁免特征）"
+  },
+  {
+    "id": "negative-0003",
+    "kind": "negative",
+    "text": "今天天气不错，青芜食品的新品上架了，欢迎选购。",
+    "expect_hits": [],
+    "expect_verdict": null,
+    "note": "无任何词表词面的负例"
+  },
+  {
+    "id": "negative-0004",
+    "kind": "negative",
+    "text": "仙鹤草堂提醒您：请遵医嘱，理性消费。",
+    "expect_hits": [],
+    "expect_verdict": null,
+    "note": "含'医'字等子串干扰但无完整词面命中"
+  },
+  {
+    "id": "negative-0005",
+    "kind": "negative",
+    "text": "",
+    "expect_hits": [],
+    "expect_verdict": null,
+    "note": "空输入（合法，零命中）"
+  },
+  {
+    "id": "position-edge-0006",
+    "kind": "position-edge",
+    "text": "﻿国家级品质，青芜食品出品。",
+    "expect_hits": [
+      {
+        "word": "国家级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 1
+      }
+    ],
+    "expect_verdict": "confirmed",
+    "note": "UTF-8 BOM 剥离后列号按剥离后文本计（判定类，行首命中）"
+  },
+  {
+    "id": "position-edge-0007",
+    "kind": "position-edge",
+    "text": "青芜食品郑重承诺：无副作用\r\n零添加。\r\n纯天然工艺。",
+    "expect_hits": [
+      {
+        "word": "无副作用",
+        "category": "保健食品违禁",
+        "line": 1,
+        "col": 10
+      },
+      {
+        "word": "零添加",
+        "category": "保健食品违禁",
+        "line": 2,
+        "col": 1
+      },
+      {
+        "word": "纯天然",
+        "category": "保健食品违禁",
+        "line": 3,
+        "col": 1
+      }
+    ],
+    "expect_verdict": null,
+    "note": "CRLF 归一为 LF 后计数（连续三行命中）"
+  },
+  {
+    "id": "position-edge-0008",
+    "kind": "position-edge",
+    "text": "北岸学堂课程支持试听。\r专供校内学员。",
+    "expect_hits": [
+      {
+        "word": "专供",
+        "category": "行业违禁",
+        "line": 2,
+        "col": 1
+      }
+    ],
+    "expect_verdict": null,
+    "note": "CR 单字符换行归一（第二行行首命中）"
+  },
+  {
+    "id": "exempt-0009",
+    "kind": "exempt",
+    "text": "《中华人民共和国广告法》第九条规定，广告不得使用“国家级”“最佳”“最高级”等用语。",
+    "expect_hits": [
+      {
+        "word": "国家级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 26
+      },
+      {
+        "word": "最佳",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 31
+      },
+      {
+        "word": "最高级",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 35
+      }
+    ],
+    "expect_verdict": "exempt",
+    "note": "引述法律条文原文（判定类：语境豁免，但扫描层仍逐词命中）"
+  },
+  {
+    "id": "exempt-0010",
+    "kind": "exempt",
+    "text": "北岸学堂老师课上举例说：“这种‘极致’的说法在广告里要慎用。”",
+    "expect_hits": [
+      {
+        "word": "极致",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 17
+      }
+    ],
+    "expect_verdict": "exempt",
+    "note": "转述/引号内他人原话（判定类：语境豁免位）"
+  },
+  {
+    "id": "exempt-0011",
+    "kind": "exempt",
+    "text": "根据国家有关规定，仙鹤草堂此款产品不适宜人群请查看标签。",
+    "expect_hits": [],
+    "expect_verdict": "uncertain",
+    "note": "“国家有关规定”为泛指表述（扫描层不命中；判定类：uncertain 记录供参考）"
+  },
+  {
+    "id": "exempt-0012",
+    "kind": "exempt",
+    "text": "青芜食品在行业评比中获销量第一（见2026年统计出处）。",
+    "expect_hits": [
+      {
+        "word": "销量第一",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 12
+      }
+    ],
+    "expect_verdict": "uncertain",
+    "note": "有据可查的序位断言存证待核（判定类：uncertain——证据不足需人工复核，非垃圾桶）"
+  },
+  {
+    "id": "edge-0001",
+    "kind": "position-edge",
+    "text": "100%有效，仙鹤草堂只做这一句承诺。",
+    "expect_hits": [
+      {
+        "word": "100%有效",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 1
+      }
+    ],
+    "expect_verdict": null,
+    "note": "位置边界（行首/行尾/跨行）——词面=100%有效"
+  },
+  {
+    "id": "edge-0002",
+    "kind": "position-edge",
+    "text": "选仙鹤草堂不后悔，认准100%有效",
+    "expect_hits": [
+      {
+        "word": "100%有效",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 12
+      }
+    ],
+    "expect_verdict": null,
+    "note": "位置边界（行首/行尾/跨行）——词面=100%有效"
+  },
+  {
+    "id": "edge-0003",
+    "kind": "position-edge",
+    "text": "开头提过100%有效。\n\n仙鹤草堂在末行再说一遍100%有效。",
+    "expect_hits": [
+      {
+        "word": "100%有效",
+        "category": "绝对化用语",
+        "line": 1,
+        "col": 5
+      },
+      {
+        "word": "100%有效",
+        "category": "绝对化用语",
+        "line": 3,
+        "col": 12
+      }
+    ],
+    "expect_verdict": null,
+    "note": "位置边界（行首/行尾/跨行）——词面=100%有效"
+  }
+]

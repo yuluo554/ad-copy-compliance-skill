@@ -14,3 +14,7 @@ references/statutes/raw/* -text
 *.exe binary
 *.zip binary
 *.ico binary
+
+# 真值基准冻结件（K15）：禁手改，变更走 tools/gen_cases.py 重生成 + --check 位级守门
+data/samples/cases.json -text
+data/samples/manifest.json -text
