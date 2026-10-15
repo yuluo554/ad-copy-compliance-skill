@@ -54,6 +54,6 @@
 
 ## 6. 遗留与如实结论
 
-- **仓库当前仍为 private**：plan/06 要求"切公开"，但对外可见性属显式确认动作（plan/07 验收门"对外动作先经用户确认"）——已备好全部前置（CI 绿＋三件套齐），**公开切换单列，待用户一句话确认后执行**（`gh repo edit yuluo554/ad-copy-compliance-skill --visibility public`）；
+- **仓库已切公开（2026-10-15，用户确认后执行）**：`gh repo edit --visibility public` 实测成功，API 复核 visibility=PUBLIC；topics 已设 6 枚（advertising-law / compliance / agent-skill / chinese-nlp / dfa / text-scanner）；Release 链接公开可达（https://github.com/yuluo554/ad-copy-compliance-skill/releases/tag/v0.0.1）；
 - CI 首跑红已按"如实配对"记录（§4），未回填美化；
-- topics 设置属公开前收尾项，随可见性切换一并执行。
+- topics 已随公开切换一并设置（6 枚，见上）。

@@ -100,7 +100,7 @@ references/
 | M3 | LLM 分层判定协议（语境豁免 / 降级路径） | ✅ |
 | M4 | 真值基准（合成样例 + 植入真值 + 一条命令复现） | ✅ |
 | M5 | 交付：SKILL.md 定稿 + README + 技术报告 + 测试/CI | ✅ |
-| M6 | 发布：tag + Release + 发布留档（GitHub 公开仓库） | ✅ v0.0.1（[发布留档](plan/RELEASE-M6.md)；仓库可见性切换待用户确认） |
+| M6 | 发布：tag + Release + 发布留档（GitHub 公开仓库） | ✅ v0.0.1（[发布留档](plan/RELEASE-M6.md)；仓库已公开） |
 
 ---
 
