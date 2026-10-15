@@ -3,7 +3,7 @@
 > 粘贴任何推广文案（商品标题 / 详情页 / 直播话术 / 朋友圈 / 短视频脚本），逐句标红《广告法》第九条绝对化用语与平台违禁词，给出可替换的合规改写——**扫描用确定性词表/规则，判定用 LLM 分层，不靠模型拍脑袋**。
 
 **形态**：Agent Skill（Claude Code / Codex 可调用）＋ CLI（`scripts/check.py`）· 纯本地 · 零上传 · 零第三方依赖
-**状态**：🚧 功能完成（M5），待发布（M6）——规则包（133 词逐条挂锚点）、DFA 扫描器、判定协议、真值基准（148 cases exact-match 1.0）与交付包装均已落库；**未接远端，CI 待首推验证**（见 [里程碑](plan/06-里程碑.md)）
+**状态**：✅ 已发布 v0.0.1（[Release](https://github.com/yuluo554/ad-copy-compliance-skill/releases/tag/v0.0.1)）——规则包（133 词逐条挂锚点）、DFA 扫描器、判定协议、真值基准（148 cases exact-match 1.0）、交付包装与发布三件套（tag＋Release 附产物＋[发布留档](plan/RELEASE-M6.md)）均已落库；CI 三 job 全绿（run 38736015173）
 
 ---
 
@@ -100,7 +100,7 @@ references/
 | M3 | LLM 分层判定协议（语境豁免 / 降级路径） | ✅ |
 | M4 | 真值基准（合成样例 + 植入真值 + 一条命令复现） | ✅ |
 | M5 | 交付：SKILL.md 定稿 + README + 技术报告 + 测试/CI | ✅ |
-| M6 | 发布：tag + Release + 发布留档（GitHub 公开仓库） | ⬜ |
+| M6 | 发布：tag + Release + 发布留档（GitHub 公开仓库） | ✅ v0.0.1（[发布留档](plan/RELEASE-M6.md)；仓库可见性切换待用户确认） |
 
 ---
 

@@ -57,6 +57,8 @@
 | 2026-10-15 | **M1 词表来源通道（D-7）** | raw.githubusercontent.com 直连被重置（实测 ❌），词表快照改经 **api.github.com contents base64 通道**获取（HTTP 200×2，与声明 size/sha 核对一致）；后续拉取沿用该通道 |
 | 2026-10-15 | **M1 平台摘录降级（D-8）** | 视频号经 weixin.qq.com readtemplate 静态模板页冻结（✅）；淘宝/抖音/小红书多通道实测均 JS 渲染壳/接口签名墙，如实 ⬜（逐通道记录 `references/platforms/README.md`），不阻塞其余模块 |
 | 2026-10-15 | **M1 词面保守收口（D-9）** | 单字/超泛词面（如"最""安全""推荐"）与否定易词不进规则包（误报不可控），已采 133 条为保守子集；采拒全记录 `data/wordlist-candidates.md`，M4 基准显示召回缺口时按同锚点补采 |
+| 2026-10-15 | **M6 发布与建仓（D-1 落地）** | 建仓路径实际为 M6 一次性建私有仓（D-1 保守变体）：先私有 → CI（首跑红 38735560145 如实留档 → 2ce3205 修复 → 38736015173 全绿）→ tag v0.0.1 + Release 附产物 → 可见性切公开待用户确认；三件套与对账见 `plan/RELEASE-M6.md` |
+| 2026-10-15 | **M6 缓议项清零** | §4 待定决策表 D-1～D-6 全部拍板（D-5 按首跑实况微调测试解释器选道）；缓议/扩展项 FR-E1/E2/E3、宣发、演示素材全部显式"跳过"（见 `plan/07` §5） |
 | 2026-10-15 | **M2 词面门禁口径（D-10）** | `scripts/` 词面不内嵌门禁只查 **≥3 字**词面：2 字中文词面（实测撞"绝对化用语"的"绝对"、文档串"首个"）在正常行文/类别枚举中碰撞不可收敛、纯误报；特征违禁词均在 3 字以上。测试构造词面输入一律运行时实算（`tests/conftest.py`） |
 | 2026-10-15 | **M3 三态命名口径（D-11）** | 判定三态 = **`confirmed` / `exempt` / `uncertain`**（全仓既定口径：plan/01/04、SKILL.md、README、data/README 共 5 处）；`HANDOFF-M3.md` 中 "violated" 为笔误不采。协议文档 `references/judgment-protocol.md` 落盘，测试锁定（`tests/test_judgment_protocol.py` 出现 violated 即红） |
 | 2026-10-15 | **M4 真值由 oracle 实算（D-12）** | `expect_hits` 不手写：`tools/gen_cases.py` 内置**独立朴素 oracle**（逐词 find，与 DFA 引擎不共用代码）运行时实算；生成期守卫断言 oracle 与引擎逐位一致（对拍语料=全部入库样例＋全词面拼接）；生成守卫另断言模板不混入旁词面、负例零命中。真值冻结件落库后由 `gen_cases --check` 位级守门 |
@@ -92,7 +94,7 @@
 | M3 | 规则包分层 + LLM 分层判定协议（扫描/判定分工、语境豁免、降级路径） | ✅ 2026-10-15（协议六节齐＋三态示例；结构/降级测试 14 项；变异验证全红已还原；50 测试双解释器绿） |
 | M4 | 真值基准（合成文案 + 植入真值 + 一条命令复现评测，断言命中集合精确匹配，探活必红） | ✅ 2026-10-15（148 cases / 133 词；bench exit 0；三形态探活端到端必红＋变异验证 3 处全红已还原；73 测试双解释器绿） |
 | M5 | 交付：SKILL.md 主入口（契约一致） + README 安装说明（逐条可跑） + 技术报告 + 测试/CI 完整 | ✅ 2026-10-15（SKILL.md 定稿＋契约块==HIT_FIELDS 双向一致性测试；README 快速开始逐条实测可跑（测试锁）；技术报告六主题落盘 `docs/技术报告.md`；编码守卫覆盖 scripts+tools 全部 6 入口（K13）；82 测试双解释器绿；变异验证 2 处全红已还原） |
-| M6 | **发布＋收尾**：git tag + GitHub Release 附产物 + **发布留档三件套**，发布 GitHub 公开仓库（`yuluo554/ad-copy-compliance-skill`）；干净环境/脱敏/首推对账/发布后复核 | ⬜ |
+| M6 | **发布＋收尾**：git tag + GitHub Release 附产物 + **发布留档三件套**，发布 GitHub 仓库（`yuluo554/ad-copy-compliance-skill`）；干净环境/脱敏/首推对账/发布后复核 | ✅ 2026-10-15（三件套齐：tag v0.0.1＋Release 附产物 sha256=4aaea981…8732e＋`plan/RELEASE-M6.md`；CI 首跑红 38735560145 → 修复 2ce3205 → 全绿 38736015173；干净副本 README 逐条＋双解释器 82 绿＋四件套＋bench 148/148；发布物真下载→sha256→解压验证；仓库暂 private，公开切换待用户确认） |
 
 **里程碑 DoD 纪律**：每个里程碑收尾时在 `data/README.md` 台账回填实测证据。
 **M6 DoD（三件套硬约束）**：**①git tag ②GitHub Release（附产物，本地留 release zip 副本 + sha256 可复验）③发布留档文件（如 `plan/RELEASE-M6.md`）**——缺任一项即为 M6 未达成。
