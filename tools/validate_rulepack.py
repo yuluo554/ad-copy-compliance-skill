@@ -200,7 +200,29 @@ def write_manifest(counts, total):
     return manifest
 
 
+
+def _ensure_utf8_stdio(streams=None):
+    """按 stream.encoding 探针，把无法编码中文的流 reconfigure 为 utf-8（K13）。
+
+    中文控制台（如 cp936）可正常编码，保持不动；CI/cp1252 等管道编码会被修复。
+    与 scripts/check.py 同口径。
+    """
+    targets = list(streams) if streams is not None else [sys.stdout, sys.stderr]
+    for stream in targets:
+        enc = getattr(stream, "encoding", None)
+        if not enc:
+            continue
+        try:
+            "测".encode(enc)
+        except (UnicodeEncodeError, LookupError):
+            try:
+                stream.reconfigure(encoding="utf-8")
+            except (AttributeError, ValueError):
+                pass
+
+
 def main(argv=None):
+    _ensure_utf8_stdio()
     parser = argparse.ArgumentParser(prog="validate_rulepack.py", description="规则包校验器")
     parser.add_argument("--check", action="store_true",
                         help="与默认行为一致（校验模式；保留该旗标使命令行与 plan/04 口径一致）")

@@ -3,7 +3,7 @@
 > 粘贴任何推广文案（商品标题 / 详情页 / 直播话术 / 朋友圈 / 短视频脚本），逐句标红《广告法》第九条绝对化用语与平台违禁词，给出可替换的合规改写——**扫描用确定性词表/规则，判定用 LLM 分层，不靠模型拍脑袋**。
 
 **形态**：Agent Skill（Claude Code / Codex 可调用）＋ CLI（`scripts/check.py`）· 纯本地 · 零上传 · 零第三方依赖
-**状态**：🚧 开发中（M0）——计划体系 `plan/00–07` 与可运行骨架已就位；规则包内容与判定协议按里程碑落库（见 [里程碑](plan/06-里程碑.md)）
+**状态**：🚧 功能完成（M5），待发布（M6）——规则包（133 词逐条挂锚点）、DFA 扫描器、判定协议、真值基准（148 cases exact-match 1.0）与交付包装均已落库；**未接远端，CI 待首推验证**（见 [里程碑](plan/06-里程碑.md)）
 
 ---
 
@@ -19,18 +19,22 @@
 
 ---
 
-## 快速开始（骨架版）
+## 快速开始
+
+环境：Python 3.8+；运行时零第三方依赖，无需安装。以下命令逐条实测可跑
+（Windows 中文控制台建议把 `python` 换成 `py -X utf8`）：
 
 ```bash
-# 环境：Python 3.8+；运行时零第三方依赖，无需安装
-python scripts/check.py --selftest        # 内置合成数据自检
+python scripts/check.py --selftest        # 内置合成数据自检 → SELFTEST_OK
 python scripts/check.py --version         # 版本
 echo "示例文案。" | python scripts/check.py -   # 扫描（stdin）→ 命中集合 JSON（stdout）
-python scripts/check.py 文案.txt          # 扫描文件
+echo "本款产品是全效之王，销量第一。" > 文案.txt
+python scripts/check.py 文案.txt          # 扫描文件 → 命中集合 JSON；有命中退出码 1
+python tools/bench.py                     # 真值基准 → BENCH PASS 148/148 exact-match
 ```
 
-> Windows 中文控制台建议用 `py -X utf8 scripts/check.py ...` 运行。
-> 当前词表尚未落库（M1 数据先行）：扫描会提示"无生效词条"并输出零命中——这是**诚实空态**，不是故障。
+> 扫描命中示例（字段序即机器契约，与 SKILL.md 契约块逐字段一致）：
+> `[{"word": "……", "category": "……", "risk": "……", "line": 1, "col": 5, "context": "……", "suggestion": "……"}]`
 
 开发与测试：
 
@@ -72,14 +76,16 @@ references/
 ## 项目结构
 
 ```
-├── SKILL.md                 # Skill 主入口（骨架草案；M5 定稿）
-├── scripts/check.py         # 确定性扫描器（骨架版；M2 升级 DFA + 全量测试）
-├── references/              # 三层规则包（M1 落盘）
-├── data/                    # 台账 + 合成样例与真值（M4 落盘）
-├── tools/                   # 构建/校验/基准辅助脚本（不进运行通路）
-├── tests/                   # pytest 测试
+├── SKILL.md                 # Skill 主入口（M5 定稿；契约块与 check.py HIT_FIELDS 一致性测试锁定）
+├── scripts/check.py         # 确定性扫描器（M2 DFA 化；零依赖零网络）
+├── references/              # 三层规则包：法条冻结 / 平台摘录 / 词表 133 词（M1 落盘，冻结件）
+├── references/judgment-protocol.md  # 判定协议（M3：三态 confirmed/exempt/uncertain + 降级路径）
+├── data/                    # 数据台账 + 真值基准（M4：148 cases 冻结 + manifest 门槛）
+├── tools/                   # 生成器/校验器/基准运行器（--check 位级守门；不进运行通路）
+├── docs/技术报告.md          # 技术报告（M5：六主题）
+├── tests/                   # pytest 测试（含门禁/探活/契约一致性）
 ├── plan/                    # 计划体系 00–07 + 跨会话交接快照 HANDOFF-M*.md
-└── .github/workflows/ci.yml # CI（win×{3.8,3.12} + ubuntu×{3.12}）
+└── .github/workflows/ci.yml # CI（win×{3.8,3.12} + ubuntu×{3.12}；未接远端，待首推验证）
 ```
 
 ---
@@ -89,11 +95,11 @@ references/
 | 里程碑 | 内容 | 状态 |
 |---|---|---|
 | M0 | 计划先行 + 可运行骨架 | ✅ |
-| M1 | 数据先行：法条冻结 / 词表整理（挂锚点）/ 平台摘录 | ⬜ |
-| M2 | 确定性扫描器（DFA + 全量测试 + 门控/失败路径） | ⬜ |
-| M3 | LLM 分层判定协议（语境豁免 / 降级路径） | ⬜ |
-| M4 | 真值基准（合成样例 + 植入真值 + 一条命令复现） | ⬜ |
-| M5 | 交付：SKILL.md 定稿 + README + 技术报告 + 测试/CI | ⬜ |
+| M1 | 数据先行：法条冻结 / 词表整理（挂锚点）/ 平台摘录 | ✅ |
+| M2 | 确定性扫描器（DFA + 全量测试 + 门控/失败路径） | ✅ |
+| M3 | LLM 分层判定协议（语境豁免 / 降级路径） | ✅ |
+| M4 | 真值基准（合成样例 + 植入真值 + 一条命令复现） | ✅ |
+| M5 | 交付：SKILL.md 定稿 + README + 技术报告 + 测试/CI | ✅ |
 | M6 | 发布：tag + Release + 发布留档（GitHub 公开仓库） | ⬜ |
 
 ---

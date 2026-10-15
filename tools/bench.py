@@ -142,7 +142,29 @@ def run_bench(cases, wordlists_dir, statutes_dir, check_mod=None):
     return results, summary
 
 
+
+def _ensure_utf8_stdio(streams=None):
+    """按 stream.encoding 探针，把无法编码中文的流 reconfigure 为 utf-8（K13）。
+
+    中文控制台（如 cp936）可正常编码，保持不动；CI/cp1252 等管道编码会被修复。
+    与 scripts/check.py 同口径。
+    """
+    targets = list(streams) if streams is not None else [sys.stdout, sys.stderr]
+    for stream in targets:
+        enc = getattr(stream, "encoding", None)
+        if not enc:
+            continue
+        try:
+            "测".encode(enc)
+        except (UnicodeEncodeError, LookupError):
+            try:
+                stream.reconfigure(encoding="utf-8")
+            except (AttributeError, ValueError):
+                pass
+
+
 def main(argv=None):
+    _ensure_utf8_stdio()
     parser = argparse.ArgumentParser(
         prog="bench.py",
         description="广告文案极限词合规体检 · 真值基准运行器（exact-match 双向比对）",
