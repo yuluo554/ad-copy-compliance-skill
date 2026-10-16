@@ -115,3 +115,20 @@ README 仍写"M5 待发布"、且不含 `plan/RELEASE-M6.md`——tag 与"已发
   tag 重打推送所触发的 run 见 GitHub Actions 记录与仓库 main 分支 §7.5 回填
   （run 晚于 tag 本身，无法写进 tag 树——如实说明，不伪造、不留空）。
 
+### 7.5 tag 重打后的收尾回填（main 分支外指针；tag 树内不含本节）
+
+> 本节回填的值均为**自指值**（tag 自身 sha、附件自身 sha、tag 推送触发的 run）——它们
+> 晚于 tag 或指向 tag 自身，**永远无法写进 tag 树内的同一文件**。故本节仅存在于 main 分支
+> （tag 树内的 §7.4 以"见 main §7.5"作外指针）。这本身就是一次如实记录：不把不可兑现的
+> 承诺留在 tag 里。
+
+- **tag 指向 sha**：`v0.0.1` = `59c0ec33c20ad8f73eeee36600eb75f07677d20b`（`git rev-parse v0.0.1^{}` 实测）；
+  重打后核验：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` **成功**、
+  `git show v0.0.1:README.md` 状态行 = "已发布 v0.0.1"。
+- **Release 附件 sha256**：`819820d729b54914b3cbb3d14971d796bfe59a114ade36d0bee69b381b0cad9e`
+  （61 tracked 文件，821831 字节；旧附件 59 文件 / `4aaea981…8732e` 已 `--clobber` 覆盖）。
+  真下载链路复算：`gh release download v0.0.1` → sha256 **一致** → 解压 `testzip()` 无损坏、
+  含 `plan/RELEASE-M6.md`。
+- **CI run（tag 推送）**：`38874533354` → **success**（push 事件，ref `v0.0.1`，head `59c0ec33`）；
+  同提交 main 推送 run `38874525163` 亦 success。
+
