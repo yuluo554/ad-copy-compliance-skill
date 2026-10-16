@@ -98,8 +98,9 @@ README 仍写"M5 待发布"、且不含 `plan/RELEASE-M6.md`——tag 与"已发
 
 ### 7.4 Release 附件与 tag（实测记录）
 
-- **tag 新指向**：`v0.0.1` 已重打至**本轮最终提交**（即本文件所在提交；tag 指针不能写死进
-  被 tag 的树内——写死会自指循环，故以 `git rev-parse v0.0.1^{}` 命令复算）。
+- **tag 新指向**：`v0.0.1` 已重打至**本文件在 tag 树内的版本所在提交**（即 §7.4 定稿提交；
+  §7.5 回填因含 tag 自身 sha 只能落在其后提交，故 tag 不含 §7.5）。tag 指针不能写死进
+  被 tag 的树内——写死会自指循环，故以 `git rev-parse v0.0.1^{}` 命令复算，实测 sha 见 §7.5。
   重打后核验：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` **成功**（旧指向 `2ce3205` 时该路径不存在）；
   `git show v0.0.1:README.md` 状态行为"已发布 v0.0.1"（旧指向时为"M5 待发布"）。
 - **Release 附件**：`ad-copy-compliance-skill-0.0.1.zip` 按 K15 配方
