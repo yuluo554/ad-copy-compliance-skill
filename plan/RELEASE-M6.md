@@ -90,39 +90,28 @@
 **缺陷**：原 `v0.0.1` 指向 `2ce3205`（CI 修复提交，早于 M6 发布收尾），其 tag 树内
 README 仍写"M5 待发布"、且不含 `plan/RELEASE-M6.md`——tag 与"已发布"状态不符。
 
-**修复**：在文档整改全部提交并验证后，删旧 tag、于**最终提交上重打** `v0.0.1` 并推 tag：
+**修复**：在文档整改全部提交并验证后，删旧 tag、于**本轮文档定稿提交上重打** `v0.0.1` 并推 tag：
 
-- 旧指向：`2ce3205`；新指向：本轮最终提交（见 §7.4 回填）。
+- 旧指向：`2ce3205`；新指向：本轮文档定稿提交（即本文件在 tag 树内的版本所在提交，
+  以 `git rev-parse v0.0.1^{}` 复算；sha 记于 tag 注释与 GitHub Release notes，
+  不写进本文件——写死会自指循环）。
 - 重打后核验：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` 成功；`git show v0.0.1:README.md`
   状态行为"已发布 v0.0.1"（非"M5 待发布"）。
 
 ### 7.4 Release 附件与 tag（实测记录）
 
-- **tag 新指向**：`v0.0.1` 已重打至**本文件在 tag 树内的版本所在提交**（即 §7.4 定稿提交；
-  §7.5 回填因含 tag 自身 sha 只能落在其后提交，故 tag 不含 §7.5）。tag 指针不能写死进
-  被 tag 的树内——写死会自指循环，故以 `git rev-parse v0.0.1^{}` 命令复算，实测 sha 见 §7.5。
+> **自指规避**：本文件被打进附件 zip、且位于 tag 树内——因此**附件自身 sha256** 与
+> **tag 自身指向 sha** 均无法写进本文件（写进即自指、永不成立），按惯例置于**附件外**的
+> GitHub Release notes 与 tag 注释；本节的核验一律给**可复算命令**而非硬数字。
+
+- **tag 新指向**：见上（`git rev-parse v0.0.1^{}` 复算；旧指向 `2ce3205`）。
   重打后核验：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` **成功**（旧指向 `2ce3205` 时该路径不存在）；
   `git show v0.0.1:README.md` 状态行为"已发布 v0.0.1"（旧指向时为"M5 待发布"）。
 - **Release 附件**：`ad-copy-compliance-skill-0.0.1.zip` 按 K15 配方
   （`git ls-tree` 全量 tracked 文件 + `ZIP_STORED` + 固定时间戳 2026-10-15T00:00:00 + 条目排序）
-  从 tag 树重新构建——**61 tracked 文件**（旧附件 59 文件）。
-  **附件 sha256 记于 GitHub Release notes 与下方 §7.5**：附件内含本文件，
-  把自身 sha 写进本文件会自指、永不成立，故按惯例置于附件外的 Release notes。
-- **CI run**：本轮分支修复推送已实测绿（`47503db` → run 38872759121，三 job）；
-  tag 重打推送所触发的 run 与附件 sha 见 **§7.5**（均晚于 tag 本身，无法写进 tag 树——
-  如实说明，不伪造、不留空）。
-
-### 7.5 tag 重打后的收尾回填
-
-（本节在 tag 重打并推送后追加；因 run/sha 晚于 tag，只能落在 tag 之后的提交上。）
-
-- **tag 指向 sha**：`16d8a076de33b12c1634d8a8914dd7f712c2771f`（`git rev-parse v0.0.1^{}` 实测）；
-  重打后核验通过：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` **成功**、
-  `git show v0.0.1:README.md` 状态行 = "已发布 v0.0.1"。
-- **Release 附件 sha256**：`7c0a2b488c92d32c31ff43d6f833200bd9d9fe96264cc58ceb56593e7dc0ee8c`
-  （61 tracked 文件，821780 字节；旧附件 59 文件 / `4aaea981…8732e` 已由 `--clobber` 覆盖）。
-  真下载链路复算：`gh release download v0.0.1` → sha256 **一致** → 解压 `testzip()` 无损坏、
-  含 `plan/RELEASE-M6.md`；解压目录实跑 `--selftest` OK ＋ pytest **82 passed** ＋ bench **148/148**。
-- **CI run（tag 推送）**：`38873494076` → **success**（push 事件，ref `v0.0.1`，head `16d8a076`）；
-  同提交 main 推送 run `38873476747` 亦 success。
+  从 tag 树重新构建——**61 tracked 文件**（旧附件 59 文件）；sha256 见 Release notes。
+  附件重建后已重上传（`gh release upload --clobber`）并 `gh release download` 真下载复算一致。
+- **CI run**：本轮修复推送已实测绿（`47503db` → run `38872759121`，三 job）；
+  tag 重打推送所触发的 run 见 GitHub Actions 记录与仓库 main 分支 §7.5 回填
+  （run 晚于 tag 本身，无法写进 tag 树——如实说明，不伪造、不留空）。
 
