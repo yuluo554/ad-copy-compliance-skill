@@ -85,7 +85,7 @@ references/
 ├── docs/技术报告.md          # 技术报告（M5：六主题）
 ├── tests/                   # pytest 测试（含门禁/探活/契约一致性）
 ├── plan/                    # 计划体系 00–07 + 跨会话交接快照 HANDOFF-M*.md
-└── .github/workflows/ci.yml # CI（win×{3.8,3.12} + ubuntu×{3.12}；未接远端，待首推验证）
+└── .github/workflows/ci.yml # CI（win×{3.8,3.12} + ubuntu×{3.12}；已接远端，三 job 全绿 run 38736015173）
 ```
 
 ---
