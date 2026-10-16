@@ -98,25 +98,23 @@ README 仍写"M5 待发布"、且不含 `plan/RELEASE-M6.md`——tag 与"已发
 
 ### 7.4 Release 附件与 tag（实测记录）
 
-- **tag 新指向**：`v0.0.1` 已重打至**本轮最终提交**（即本文件所在提交，`git rev-parse v0.0.1`
-  复算；tag 指针不能写死进被 tag 的树内——写死会自指循环，故以命令复算）。
+- **tag 新指向**：`v0.0.1` 已重打至**本轮最终提交**（即本文件所在提交；tag 指针不能写死进
+  被 tag 的树内——写死会自指循环，故以 `git rev-parse v0.0.1^{}` 命令复算）。
   重打后核验：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` **成功**（旧指向 `2ce3205` 时该路径不存在）；
   `git show v0.0.1:README.md` 状态行为"已发布 v0.0.1"（旧指向时为"M5 待发布"）。
 - **Release 附件**：`ad-copy-compliance-skill-0.0.1.zip` 按 K15 配方
-  （`git ls-tree` 全量文件 + `ZIP_STORED` + 固定时间戳 2026-10-15T00:00:00 + 条目排序）
-  从最终树重新构建——**61 tracked 文件**，新 sha256 =
-  `c901060597e012945da88708e45d8888008fca716ab576688ed10e3be17d198e`
-  （旧附件 59 文件 / `4aaea981…8732e`）；已重上传为同名附件并 `gh release download`
-  真下载复算核对一致。
+  （`git ls-tree` 全量 tracked 文件 + `ZIP_STORED` + 固定时间戳 2026-10-15T00:00:00 + 条目排序）
+  从 tag 树重新构建——**61 tracked 文件**（旧附件 59 文件）。
+  **附件 sha256 记于 GitHub Release notes 与下方 §7.5**：附件内含本文件，
+  把自身 sha 写进本文件会自指、永不成立，故按惯例置于附件外的 Release notes。
 - **CI run**：本轮分支修复推送已实测绿（`47503db` → run 38872759121，三 job）；
-  tag 重打推送所触发的 run 与最终回填见 **§7.5**（该 run 必然晚于 tag 本身，
-  无法写进 tag 树内——如实说明，不伪造、不留空）。
+  tag 重打推送所触发的 run 与附件 sha 见 **§7.5**（均晚于 tag 本身，无法写进 tag 树——
+  如实说明，不伪造、不留空）。
 
 ### 7.5 tag 重打后的收尾回填
 
-（本节在 tag 重打并推送后追加；因 run 晚于 tag，只能落在 tag 之后的提交上。）
+（本节在 tag 重打并推送后追加；因 run/sha 晚于 tag，只能落在 tag 之后的提交上。）
 
-- **tag 指向最终提交 sha**：见提交历史（本文件后续提交的父提交即 tag 指向）；以
-  `git rev-parse v0.0.1^{}` 复算。
-- **tag 推送触发的 CI run**：见下方回填（实测写入）。
+- **tag 指向 sha**：`git rev-parse v0.0.1^{}` 复算（本提交历史中 tag 的父提交）。
+- **附件 sha256 与 tag 推送 CI run**：见下方实测回填。
 
