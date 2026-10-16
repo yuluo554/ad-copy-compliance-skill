@@ -23,7 +23,7 @@ references/
 
 ## 第三层 `wordlists/` — 分类词表
 
-- 来源：公开整理词表（`es3344520/advertising-limit-words` 的 `Dete.txt` 约 300 词；`dx2020z/ad-redline-guardian` 的 `references/banned-words.md` 分类更结构化），**非官方整理**。
+- 来源：公开整理词表（`es3344520/advertising-limit-words` 的 `Dete.txt` 去重后 191 词（M1 实测）；`dx2020z/ad-redline-guardian` 的 `references/banned-words.md` 分类更结构化），**非官方整理**。
 - 类别：绝对化用语 / 医疗 / 保健食品 / 行业。
 - 纪律：每条须带 **来源 + 类别 + 风险等级 + 依据条款锚点**；**未挂原文核对的词条不得被扫描器加载生效**；显式标注"**非官方整理，法条原文为准**"。
 
