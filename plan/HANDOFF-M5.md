@@ -13,8 +13,8 @@
 - **冻结件**：`data/samples/cases.json`（**148 cases**）＋`manifest.json`——均已配
   `.gitattributes` `-text`（K15 冻结纪律：禁手改，变更走 `tools/gen_cases.py` 重生成＋`--check`）。
   样例构成：逐词全量 133（`pos-*`，每生效词条 1 条单词命中）＋多词 2＋负例 3＋位置边界
-  （手工 3：BOM/CRLF/CR＋补组 3：行首/行尾/跨行）＋判定类 8（`expect_verdict`：
-  confirmed 2 / exempt 2 / uncertain 2＋2 非命中判定参考）；同词异类如实登记 0
+  （手工 3：BOM/CRLF/CR＋补组 3：行首/行尾/跨行）＋判定类 6（`expect_verdict`：
+  confirmed 2 / exempt 2 / uncertain 2）；同词异类如实登记 0
   （本规则包无跨文件同词，不虚构样例）。
 - **真值纪律（D-12）**：`expect_hits` 不手写——`tools/gen_cases.py` 内置**独立朴素
   oracle**（逐词 find，与 DFA 引擎不共用代码）运行时实算；生成期守卫：oracle 与引擎
