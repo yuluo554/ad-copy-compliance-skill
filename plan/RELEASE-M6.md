@@ -115,6 +115,13 @@ README 仍写"M5 待发布"、且不含 `plan/RELEASE-M6.md`——tag 与"已发
 
 （本节在 tag 重打并推送后追加；因 run/sha 晚于 tag，只能落在 tag 之后的提交上。）
 
-- **tag 指向 sha**：`git rev-parse v0.0.1^{}` 复算（本提交历史中 tag 的父提交）。
-- **附件 sha256 与 tag 推送 CI run**：见下方实测回填。
+- **tag 指向 sha**：`16d8a076de33b12c1634d8a8914dd7f712c2771f`（`git rev-parse v0.0.1^{}` 实测）；
+  重打后核验通过：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` **成功**、
+  `git show v0.0.1:README.md` 状态行 = "已发布 v0.0.1"。
+- **Release 附件 sha256**：`7c0a2b488c92d32c31ff43d6f833200bd9d9fe96264cc58ceb56593e7dc0ee8c`
+  （61 tracked 文件，821780 字节；旧附件 59 文件 / `4aaea981…8732e` 已由 `--clobber` 覆盖）。
+  真下载链路复算：`gh release download v0.0.1` → sha256 **一致** → 解压 `testzip()` 无损坏、
+  含 `plan/RELEASE-M6.md`；解压目录实跑 `--selftest` OK ＋ pytest **82 passed** ＋ bench **148/148**。
+- **CI run（tag 推送）**：`38873494076` → **success**（push 事件，ref `v0.0.1`，head `16d8a076`）；
+  同提交 main 推送 run `38873476747` 亦 success。
 
