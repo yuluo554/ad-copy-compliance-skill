@@ -57,3 +57,66 @@
 - **仓库已切公开（2026-10-15，用户确认后执行）**：`gh repo edit --visibility public` 实测成功，API 复核 visibility=PUBLIC；topics 已设 6 枚（advertising-law / compliance / agent-skill / chinese-nlp / dfa / text-scanner）；Release 链接公开可达（https://github.com/yuluo554/ad-copy-compliance-skill/releases/tag/v0.0.1）；
 - CI 首跑红已按"如实配对"记录（§4），未回填美化；
 - topics 已随公开切换一并设置（6 枚，见上）。
+
+---
+
+## 7. 发布后修复轮（2026-10-16）：审计缺陷整改 + tag 重打
+
+> 背景：发布后审计发现文档漂移、tag 指向早于发布留档等问题，本轮逐条整改。
+> 纪律：一切数字先实测再改（不回抄审计报告），测试/基准复跑全绿，推送后据实记 CI run。
+
+### 7.1 本轮改动（按类型分提交）
+
+| 提交 | 类型 | 改了什么 | 实测依据 |
+|---|---|---|---|
+| `9093a24` | 数字漂移 | 判定类样例数 8→6（`data/samples/README.md`、`docs/技术报告.md` 两处、`plan/HANDOFF-M5.md`） | 读 `data/samples/cases.json`：`expect_verdict` 非 null = **6**（confirmed 2 / exempt 2 / uncertain 2）；`manifest.json.verdict_case_ids` 列 6 条（生成器本已写 6，doc 侧漂移） |
+| `1a384ec` | 数字漂移 | 词表来源量级「约 300 词」→「去重后 191 词」（`plan/01:132`、`plan/00:39`、`plan/04:81`、`plan/05:13/56`、`references/README.md`） | 经 `api.github.com/contents` base64 重取 `Dete.txt`（sha `1954fab`，size 2150）：非空行 195、**去重后 191**（与 M1 快照一致） |
+| `a710ea3` | 状态过期 | README 结构导览、技术报告状态行/诚实口径段「未接远端待验证」→ 实跑全绿 + run id | `gh run list` 实测 run 38736015173 三 job 全绿 |
+| `5fb5959` | 交付缺口 | README 增「作为 Skill 安装与调用」节；新增 `docs/skill-调用演练.md`（真跑记录）；FR-1/FR-2 验收门、plan/07 §1/§2/§3、plan/06 M6 行、plan/00 台账首行落可核验物 | 本机真跑一轮"安装→frontmatter 解析→扫描→判定"，原始输出与 K10 断言见该文件 |
+| `47503db` | 自相矛盾 | plan/07 发布 checklist「切公开待用户确认」「暂 private」→ 已切 PUBLIC | `gh repo edit --visibility public` 实测 + API 复核 visibility=PUBLIC（§6） |
+
+**未改项说明**：审计报告称判定类为 6 条、manifest 已写 6——本轮独立复核一致（见上表）；
+另发现审计报告未列的同源漂移 4 处（plan/04、plan/05 两处、references/README），一并修正。
+
+### 7.2 验证（本轮实测）
+
+- `py -3.8 -m pytest tests -q` / `py -3.12 -m pytest tests -q` → **各 82 passed**；
+- `py -3.12 -X utf8 tools/bench.py` → `BENCH PASS 148/148 exact-match (required=1.00) gate_blocked=0`；
+- 冻结件四件套 `--check` 全过：`build_statutes` 3 部 / `gen_wordlists` / `validate_rulepack`（words=133 files=4）/ `gen_cases`（148 cases）；
+- 推送后 CI：**run 38872759121（success，三 job）**，head=`47503db`。
+
+### 7.3 tag 重打（修正 tag 指向）
+
+**缺陷**：原 `v0.0.1` 指向 `2ce3205`（CI 修复提交，早于 M6 发布收尾），其 tag 树内
+README 仍写"M5 待发布"、且不含 `plan/RELEASE-M6.md`——tag 与"已发布"状态不符。
+
+**修复**：在文档整改全部提交并验证后，删旧 tag、于**最终提交上重打** `v0.0.1` 并推 tag：
+
+- 旧指向：`2ce3205`；新指向：本轮最终提交（见 §7.4 回填）。
+- 重打后核验：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` 成功；`git show v0.0.1:README.md`
+  状态行为"已发布 v0.0.1"（非"M5 待发布"）。
+
+### 7.4 Release 附件与 tag（实测记录）
+
+- **tag 新指向**：`v0.0.1` 已重打至**本轮最终提交**（即本文件所在提交，`git rev-parse v0.0.1`
+  复算；tag 指针不能写死进被 tag 的树内——写死会自指循环，故以命令复算）。
+  重打后核验：`git cat-file -e v0.0.1:plan/RELEASE-M6.md` **成功**（旧指向 `2ce3205` 时该路径不存在）；
+  `git show v0.0.1:README.md` 状态行为"已发布 v0.0.1"（旧指向时为"M5 待发布"）。
+- **Release 附件**：`ad-copy-compliance-skill-0.0.1.zip` 按 K15 配方
+  （`git ls-tree` 全量文件 + `ZIP_STORED` + 固定时间戳 2026-10-15T00:00:00 + 条目排序）
+  从最终树重新构建——**61 tracked 文件**，新 sha256 =
+  `c901060597e012945da88708e45d8888008fca716ab576688ed10e3be17d198e`
+  （旧附件 59 文件 / `4aaea981…8732e`）；已重上传为同名附件并 `gh release download`
+  真下载复算核对一致。
+- **CI run**：本轮分支修复推送已实测绿（`47503db` → run 38872759121，三 job）；
+  tag 重打推送所触发的 run 与最终回填见 **§7.5**（该 run 必然晚于 tag 本身，
+  无法写进 tag 树内——如实说明，不伪造、不留空）。
+
+### 7.5 tag 重打后的收尾回填
+
+（本节在 tag 重打并推送后追加；因 run 晚于 tag，只能落在 tag 之后的提交上。）
+
+- **tag 指向最终提交 sha**：见提交历史（本文件后续提交的父提交即 tag 指向）；以
+  `git rev-parse v0.0.1^{}` 复算。
+- **tag 推送触发的 CI run**：见下方回填（实测写入）。
+
