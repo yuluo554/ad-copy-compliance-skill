@@ -69,7 +69,7 @@
 
 | 承诺项 | 素材来源 | 交付物内可达性 | 核验方式 | 状态 |
 |---|---|---|---|---|
-| SKILL.md 主入口 + 安装说明 | 题面定义（skill 触发/调用/输出契约/免责） | skill 目录随包 | 在 Claude Code / Codex 实际调用；输出契约与 `check.py` 逐字段比对 | ⬜ 待 M5 |
+| SKILL.md 主入口 + 安装说明 | 题面定义（skill 触发/调用/输出契约/免责） | skill 目录随包 + README「安装与调用」节 + 可复现演练记录 | 按 `docs/skill-调用演练.md` 复现安装/调用步骤；输出契约与 `check.py` 逐字段比对（测试锁） | ✅ M5+M6（SKILL.md 定稿；README 补「作为 Skill 安装与调用」节；`docs/skill-调用演练.md` 记录真实演练步骤与结果） |
 | 三层规则包：法条冻结 | 《广告法》§9/§16/§18/§28、互联网广告办法、医疗广告办法（**samr.gov.cn 直连 ✅**） | `references/statutes/` 随包，逐条带来源+基准日+查证状态 | 冻结字节件 sha256 登记；逐条挂原文核对 | ✅ M1（2026-10-15：3 部冻结＋双 sha256 登记＋`--check` 位级一致；见 `references/statutes/README.md`） |
 | 三层规则包：平台规则 | 淘宝/抖音/小红书/视频号社区规范（**官方页纯 JS ⬜ 不可自动抓**） | `references/platforms/` 人工摘录冻结件 | 逐条注摘录日期 + 出处 + 摘录人；不得冒充官方实时口径 | ◐ M1（视频号 ✅ 已冻结；淘宝/抖音/小红书 ⬜ 逐通道实测不可达，记录见 `references/platforms/README.md`） |
 | 三层规则包：分类词表 | 公开整理词表（`advertising-limit-words` Dete.txt（191 词去重实测）；`ad-redline-guardian` banned-words.md（MIT））**非官方** | `references/wordlists/` 随包，每条带类别+风险+条款锚点 | 标注来源与"非官方整理，法条原文为准"；未挂原文核对不得落库 | ✅ M1（133 条 verified 全挂锚点；`tools/validate_rulepack.py --check` 全过；采拒记录 `data/wordlist-candidates.md`） |

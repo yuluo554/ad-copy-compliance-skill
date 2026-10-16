@@ -45,6 +45,36 @@ python -m pytest tests -q
 
 ---
 
+## 作为 Skill 安装与调用
+
+本仓库根目录即一个 Agent Skill 包——`SKILL.md` 带 YAML frontmatter（`name` + `description`），
+放入宿主 agent 的 skills 目录即可被自动发现；`description` 内含触发词，agent 据此决定何时调用。
+
+**安装（任选其一）**：
+
+```bash
+# 方式 A：直接克隆到 skills 目录（Claude Code 用户级 skills 目录示例）
+git clone https://github.com/yuluo554/ad-copy-compliance-skill \
+  ~/.claude/skills/ad-copy-compliance-skill
+
+# 方式 B：已有本地副本，软链/复制进 skills 目录（同一目录名 = skill 名）
+#   cp -r <本仓库> <宿主 skills 目录>/ad-copy-compliance-skill
+```
+
+> 宿主 skills 目录位置随 agent 而异（如 Claude Code 为用户级 `~/.claude/skills/` 或
+> 项目级 `.claude/skills/`；Codex 等按各自约定）。本 skill 无需安装第三方依赖
+> （`scripts/`/`tools/` 仅 stdlib），放进目录即可用。
+
+**被 agent 调用**：宿主 agent 读取 `SKILL.md` frontmatter 匹配触发词（广告法 / 极限词 /
+绝对化用语 / 违禁词 / 文案合规自查 / 违规词检测），命中后按 `SKILL.md` 的"工作流"三步执行——
+① 调 `scripts/check.py` 得到命中集合 JSON → ② 按 `references/judgment-protocol.md` 在会话内
+给每条命中追加 `verdict`（只注释不改位置）→ ③ 呈现标红 + 替换建议 + 依据条款 + 免责声明。
+
+**可复现演练记录**：本机实际执行过一轮"安装 → 发现 → 扫描 → 判定"全流程，步骤与原始输出
+见 [`docs/skill-调用演练.md`](docs/skill-调用演练.md)（含真跑命令与结果，非截图）。
+
+---
+
 ## 三层规则包
 
 ```
