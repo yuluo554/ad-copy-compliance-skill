@@ -3,7 +3,7 @@
 > 粘贴任何推广文案（商品标题 / 详情页 / 直播话术 / 朋友圈 / 短视频脚本），逐句标红《广告法》第九条绝对化用语与平台违禁词，给出可替换的合规改写——**扫描用确定性词表/规则，判定用 LLM 分层，不靠模型拍脑袋**。
 
 **形态**：Agent Skill（Claude Code / Codex 可调用）＋ CLI（`scripts/check.py`）· 纯本地 · 零上传 · 零第三方依赖
-**状态**：✅ 已发布 v0.0.1（[Release](https://github.com/yuluo554/ad-copy-compliance-skill/releases/tag/v0.0.1)）——规则包（133 词逐条挂锚点）、DFA 扫描器、判定协议、真值基准（148 cases exact-match 1.0）、交付包装与发布三件套（tag＋Release 附产物＋[发布留档](plan/RELEASE-M6.md)）均已落库；CI 三 job 全绿（run 38736015173）
+**状态**：✅ 已发布 v0.0.1（[Release](https://github.com/yuluo554/ad-copy-compliance-skill/releases/tag/v0.0.1)）——规则包（133 词逐条挂锚点）、DFA 扫描器、判定协议、真值基准（148 cases exact-match 1.0）、交付包装与发布三件套（tag＋Release 附产物＋[发布留档](plan/RELEASE-M6.md)）均已落库；CI 三 job 全绿（run 38736015173，截至 v0.0.1；此后 CI 以 Actions 页实查为准）
 
 ---
 
@@ -115,7 +115,7 @@ references/
 ├── docs/技术报告.md          # 技术报告（M5：六主题）
 ├── tests/                   # pytest 测试（含门禁/探活/契约一致性）
 ├── plan/                    # 计划体系 00–07 + 跨会话交接快照 HANDOFF-M*.md
-└── .github/workflows/ci.yml # CI（win×{3.8,3.12} + ubuntu×{3.12}；已接远端，三 job 全绿 run 38736015173）
+└── .github/workflows/ci.yml # CI（win×{3.8,3.12} + ubuntu×{3.12}；已接远端，三 job 全绿 run 38736015173，截至 v0.0.1；此后 CI 以 Actions 页实查为准）
 ```
 
 ---
