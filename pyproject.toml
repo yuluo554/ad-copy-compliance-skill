@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+# 本仓是 Agent Skill 形态（脚本 + 规则包 + 契约文档），没有需要安装的包：
+# `scripts/check.py` 直接以仓内路径运行，`references/` 是运行期加载的规则包。
+# 这份 pyproject 的唯一作用是**机读声明运行门槛**（SI-012 的判据扫 pyproject 的
+# requires-python，此前本仓没有该文件，结构性地看不见）。故 packages 显式为空，
+# 避免 `pip install .` 走隐式包发现。
+[project]
+name = "ad-copy-compliance-skill"
+version = "0.0.1"
+description = "广告文案极限词合规体检 Skill：确定性词表/DFA 扫描 + 分层判定协议（纯本地、零第三方依赖）"
+requires-python = ">=3.8"
+readme = "README.md"
+dependencies = []
+
+[tool.setuptools]
+packages = []
